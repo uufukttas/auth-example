@@ -26,7 +26,6 @@ const Signup = () => {
 			console.log(res.message);
 		} catch (error) {
 			if (
-				error.response &&
 				error.response.status >= 400 &&
 				error.response.status <= 500
 			) {
